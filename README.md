@@ -48,7 +48,7 @@ apt-get install clang-tools
 ```
 Prettier 설정 변경
 ```bash
-nvim /home/($USER)/.config/coc/extensions/node_modules/coc-prettier/package.json
+nvim ~/.config/coc/extensions/node_modules/coc-prettier/package.json
 ```
 ```json
 "prettier.tabWidth": {                                                                                            
