@@ -23,7 +23,7 @@ sudo tar -C /usr/local --strip-components 1 -xJf node-v16.13.0-linux-x64.tar.xz
 ```
 <br/>
 
-<b>Language-servers (https://github.com/neoclide/coc.nvim/wiki/Language-servers)</b>
+- <b>Language-servers (https://github.com/neoclide/coc.nvim/wiki/Language-servers)</b>
 ```bash
 apt-get install clang-tools
 ```
@@ -33,7 +33,7 @@ apt-get install clang-tools
 ```
 <br/>
 
-<b>ESLint (https://github.com/neoclide/coc-eslint)</b>
+- <b>ESLint (https://github.com/neoclide/coc-eslint)</b>
 ```bash
 :CocInstall coc-eslint
 ```
@@ -42,7 +42,7 @@ apt-get install clang-tools
 ```
 <br/>
 
-<b>Prettier (https://github.com/neoclide/coc-prettier)</b>
+- <b>Prettier (https://github.com/neoclide/coc-prettier)</b>
 ```bash
 :CocInstall coc-prettier
 ```
