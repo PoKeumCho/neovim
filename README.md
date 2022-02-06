@@ -15,10 +15,11 @@ curl https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim -o ~/.c
 위 코드 실행 후 PlugInstall 실행
 <br/><br/>
 
-<b>[coc.nvim] "node" is not executable, checkout https://nodejs.org/en/download/ [해결방법]</b>   
-* Installing Node.js with nvm   
-1. Find lastest releases here   
-https://github.com/nvm-sh/nvm   
+### <b>[coc.nvim] "node" is not executable, checkout https://nodejs.org/en/download/ [해결방법]</b>   
+- - - 
+* **Installing Node.js with nvm**      
+1. Find lastest releases here --> https://github.com/nvm-sh/nvm  
+   
 2. Install nvm via terminal   
 ```bash
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
@@ -27,12 +28,13 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
 ```bash
 nvm install 16
 ```
-
+- - - 
 ```bash
 wget https://nodejs.org/dist/v16.13.0/node-v16.13.0-linux-x64.tar.xz
 sudo apt-get install xz-utils
 sudo tar -C /usr/local --strip-components 1 -xJf node-v16.13.0-linux-x64.tar.xz
 ```
+- - - 
 <br/>
 
 - <b>Language-servers (https://github.com/neoclide/coc.nvim/wiki/Language-servers)</b>
