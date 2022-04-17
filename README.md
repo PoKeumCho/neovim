@@ -43,7 +43,7 @@ apt-get install clang-tools
 ```
 
 ```bash
-:CocInstall coc-clangd coc-html coc-tsserver coc-json coc-phpls coc-pyright coc-java
+:CocInstall coc-clangd coc-html coc-tsserver coc-json coc-phpls coc-pyright coc-java coc-kotlin
 ```
 <br/>
 
